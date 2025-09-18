@@ -1,3 +1,10 @@
+# 🧮 Flutter Calculator App
+
+A **Flutter calculator app** using **BLoC** for state management.  
+Run it on **mobile (Android/iOS)** or **web**.
+
+---
+
 ## ✨ Features
 
 - Basic operations: `+` ➕, `-` ➖, `×` ✖️, `÷` ➗, `%` 💯  
@@ -18,38 +25,36 @@
 
 ## 📂 Clone & Run Project
 
-1. Open terminal:
+1. **Open terminal and clone the project:**
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 cd YOUR_REPOSITORY
 ```
-2 Enable web support (optional, for browser):
 
+2. Enable web support (optional, for browser):
+
+```bash
 flutter config --enable-web
+```
 
+3. Check connected devices:
 
-Check connected devices:
-
+```bash
 flutter devices
-
-
+```
 You should see your device, emulator, or browser (Chrome/Edge).
 
-Run the app:
-
+4.Run the app:
 Web:
 
+```bash
 flutter run -d chrome
-
+```
 
 Mobile (Android/iOS):
-
+```bash
 flutter run
-
-
-Tip: In VS Code, press Ctrl + ~ to open terminal, then flutter run.
+```
+💡 Tip: In VS Code, press Ctrl + ~ to open terminal, then flutter run.
 Use hot reload by pressing r.
-
-
-If you want, I can also give you **section 4 (Project Structure) ready to copy** next so you have everything together. Do you
